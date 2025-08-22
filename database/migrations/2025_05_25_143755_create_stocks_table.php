@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('type_produit');
             $table->integer('quantite_stock');
-            $table->float('prix_stocks');
+            $table->float('prix');
             $table->timestamps();
         });
     }
